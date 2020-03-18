@@ -10,6 +10,11 @@ ekara:
 templates:
   - "docker-compose.yml"
 
+vars:
+  ekara:
+    volume:
+      size: 30
+
 nodes:
   '*':
     provider:
