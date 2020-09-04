@@ -6,9 +6,8 @@ ekara:
   parent:
     repository: https://github.com/ekara-platform/distribution
     ref: master
-
-templates:
-  - "docker-compose.yml"
+  templates:
+    - "docker-compose.yml"
 
 vars:
   ekara:
