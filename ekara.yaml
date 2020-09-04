@@ -4,7 +4,7 @@ qualifier: full
 
 ekara:
   parent:
-    repository: ekara-platform/distribution
+    repository: https://github.com/ekara-platform/distribution
     ref: master
 
 templates:
